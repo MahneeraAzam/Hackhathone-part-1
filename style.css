@@ -154,11 +154,18 @@ header img{
         flex-direction: column;
     }
 
-    /* .content h2{
-        color: black;
-    } */
-
     aside, .main-content{
      width: 100%;
+    }
+
+    .resumeDiv{
+        width: 90%;
+        border: 2px black solid;
+    }
+
+    .btnDiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
     }
 }
